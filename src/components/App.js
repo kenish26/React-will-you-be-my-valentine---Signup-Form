@@ -45,7 +45,7 @@ const App = () => {
        }
        const d=data.email.indexOf("@")
        
-       setMsg(data.email.substring(0,d))
+       setMsg("Hello"+" "+data.email.substring(0,d))
        return
 
   }
